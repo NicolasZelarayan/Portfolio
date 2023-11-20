@@ -4,6 +4,7 @@ import {
   Contact,
   Experience,
   Hero,
+  Projects,
   Navbar,
   Tech,
 } from './components';
@@ -26,7 +27,7 @@ const App = () => {
           <Tech />
         </div>
 
-        {/* <Projects /> */}
+         <Projects /> 
         <Certificates/>
 
         <div

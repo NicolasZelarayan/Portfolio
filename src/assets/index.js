@@ -3,7 +3,7 @@ import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
-
+import gcloud from './tech/g-cloud.png';
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
@@ -17,7 +17,7 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
-
+import mysql from './tech/mysql.png';
 import css from './tech/css.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
@@ -32,19 +32,17 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
-
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
-
+import claro from './company/claro_logo.png';
+import flow from './company/flow.png';
 import foundation from "./certificates/aws-academy-cloud-foundations.png";
 import practitioner from "./certificates/aws-certified-cloud-practitioner.png";
 import azure from "./certificates/azure.png";
 import deloitte from "./certificates/deloitte.png";
+import synagro from "./company/synagro.png";
 
 
 export {
+  claro,
   foundation,
   practitioner,
   azure,
@@ -80,8 +78,8 @@ export {
   redux,
   tailwind,
   typescript,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  mysql,
+  gcloud,
+  flow,
+  synagro,
 };

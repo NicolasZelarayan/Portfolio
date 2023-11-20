@@ -1,22 +1,21 @@
 import {
+  claro,
+  nodejs,
   frontend,
   backend,
   ux,
   prototyping,
   javascript,
-  html,
-  css,
   git,
   docker,
-  postgresql,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  synagro,
   practitioner,
   foundation,
   azure,
-  deloitte
+  deloitte,
+  mysql,
+  gcloud,
+  flow,
 } from "../assets";
 
 export const navLinks = [
@@ -54,14 +53,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
+  //{
+  //  name: 'HTML 5',
+  //  icon: html,
+  //},
+  //{
+  //  name: 'CSS 3',
+  //  icon: css,
+  //},
   {
     name: 'JavaScript',
     icon: javascript,
@@ -82,10 +81,10 @@ const technologies = [
   //   name: 'Tailwind CSS',
   //   icon: tailwind,
   // },
-  // {
-  //   name: 'Node JS',
-  //   icon: nodejs,
-  // },
+   {
+     name: 'Node JS',
+     icon: nodejs,
+   },
   // {
   //   name: 'Rails',
   //   icon: rubyrails,
@@ -94,10 +93,10 @@ const technologies = [
   //   name: 'graphql',
   //   icon: graphql,
   // },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+  // {
+  //  name: 'postgresql',
+  //  icon: postgresql,
+  //},
   {
     name: 'git',
     icon: git,
@@ -106,36 +105,38 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
+  {
+    name: 'MySQL',
+    icon: mysql,
+  },
+  {
+    name: 'Google Cloud',
+    icon: gcloud,
+  }
 ];
 
 const experiences = [
+
   {
-    title: 'DevOps Engineer',
-    company_name: 'Ellocent Labs',
-    icon: coverhunt,
+    title: 'Help Desk IT',
+    company_name: 'Tecnologia Synagro',
+    icon: synagro,
     iconBg: '#333333',
-    date: 'May 2022 - Present',
+    date: 'Feb 2023 - Present',
   },
   {
-    title: 'Softwaree Engineer associate',
-    company_name: 'Xenonstack',
-    icon: microverse,
+    title: 'Soporte Tecnico de aplicaciones',
+    company_name: 'Teleperformance - Campaña Flow Argentina',
+    icon: flow,
     iconBg: '#333333',
-    date: 'Jan 2022 - Apr 2022',
+    date: 'Dec 2021 - Feb 2023',
   },
   {
-    title: 'Clound Engineer Intern',
-    company_name: 'Simba Developers',
-    icon: kelhel,
+    title: 'Tecnico Redes FTTH',
+    company_name: 'Data-Project proveedor de Claro',
+    icon: claro,
     iconBg: '#333333',
-    date: 'June 2021 - Dec 2021',
-  },
-  {
-    title: 'B.tech CSE',
-    company_name: 'GNA University, Phagwara',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'July 2018 - June 2022',
+    date: 'July 2019 - June 2021',
   },
 ];
 
