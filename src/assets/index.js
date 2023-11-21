@@ -32,7 +32,7 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
-import claro from './company/claro_logo.png';
+import claro from './company/Claro_logo.png';
 import flow from './company/flow.png';
 import foundation from "./certificates/aws-academy-cloud-foundations.png";
 import practitioner from "./certificates/aws-certified-cloud-practitioner.png";
