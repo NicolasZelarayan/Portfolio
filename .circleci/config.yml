@@ -15,4 +15,4 @@ jobs:
       - run: docker push nicolaszelarayan/portfolio:$CIRCLE_SHA1
       - run: ssh -o StrictHostKeyChecking=no -t -t usuario@34.28.124.108 "sudo docker stop portfolio || true"
       - run: ssh -o StrictHostKeyChecking=no -t -t usuario@34.28.124.108 "docker rm portfolio || true"
-      - run: ssh -o StrictHostKeyChecking=no -t -t usuario@34.28.124.108 "docker run -p 8090:80 -d --name portfolio nicolaszelarayan/portfolio:$CIRCLE_SHA1"
+      - run: ssh -o StrictHostKeyChecking=no -t -t usuario@34.28.124.108 "docker run -p 8090:5173 -d --name portfolio nicolaszelarayan/portfolio:$CIRCLE_SHA1"
